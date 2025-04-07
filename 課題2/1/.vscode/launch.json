@@ -1,0 +1,27 @@
+{
+    // IntelliSense を使用して利用可能な属性を学べます。
+    // 既存の属性の説明をホバーして表示します。
+    // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python デバッガー: 現在のファイル",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": [
+                "input/omni.jpg", // 入力画像パス
+                "180", // 水平方向の回転角度
+                "-10", // 垂直方向の回転角度
+                "30", // 光軸回りの回転角度
+                "angle",// 直後2つの値で画角指定
+                "91.9", // 水平方向の画角
+                "63.6", // 垂直方向の画角
+                "size",
+                "2000",
+                "1200"
+            ]
+        }
+    ]
+}

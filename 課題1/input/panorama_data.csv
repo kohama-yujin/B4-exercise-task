@@ -1,0 +1,8 @@
+img2_path,input/source.jpg,,,
+img1_path,input/target.jpg,,,
+panorama_path,panorama.jpg,,,
+,1,2,3,4
+x,1842,2469,2350,1487
+y,1825,2360,3676,3894
+x',1778,2442,2235,1487
+y',262,888,2110,2316
