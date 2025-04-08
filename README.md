@@ -1,3 +1,3 @@
-課題1
-main.py ./input/panorama_data.csv
+課題1<br>
+$ main.py ./input/panorama_data.csv<br>
 のようにcsvファイルのパスを指定してください
